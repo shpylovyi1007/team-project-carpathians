@@ -9,6 +9,7 @@
 
 .hero-container {
   text-align: center;
+  display: none;
 }
 
 .hero-br {
@@ -49,6 +50,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 185px;
+  }
+
+  .header-open-menu {
+    background: linear-gradient(
+        0deg,
+        rgba(32, 35, 33, 0.7) 0%,
+        rgba(32, 35, 33, 0.7) 100%
+      ),
+      url(../img/hero_desk-1920.jpg);
   }
 
   .hero-title {
@@ -112,4 +122,8 @@
   .hero-container {
     padding: 0 20px;
   }
+}
+
+.is-open {
+  display: block;
 }
