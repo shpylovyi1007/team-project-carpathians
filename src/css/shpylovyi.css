@@ -34,7 +34,10 @@
 .reviews-images {
   position: absolute;
   top: 84px;
-  left: 105px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
 }
 
 .reviews-subject {
