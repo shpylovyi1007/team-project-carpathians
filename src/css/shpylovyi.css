@@ -1,0 +1,62 @@
+.reviews {
+  padding-top: 52px;
+}
+
+.reviews-background {
+  width: 100%;
+  height: 134px;
+  background-image: url(../img/Review_mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews-title {
+  color: var(--Primary-text, #1b1d1b);
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.reviews-item {
+  position: relative;
+  padding-bottom: 48px;
+  border: 1px solid var(--Blue, #5b86a1);
+}
+
+.reviews-images {
+  position: absolute;
+  top: 84px;
+  left: 105px;
+}
+
+.reviews-subject {
+  color: var(--Blue, #5b86a1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 16px;
+}
+
+.reviews-text {
+  margin: 0 auto;
+  width: 241px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reviews-icon {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  fill: #5b86a1;
+}

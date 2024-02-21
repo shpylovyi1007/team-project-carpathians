@@ -1,22 +1,22 @@
 :root {
-  --blue: #5B86A1;
-  --Primary-text: #1B1D1B;
+  --blue: #5b86a1;
+  --Primary-text: #1b1d1b;
   --Secondary-text: #202321;
-  --Light: #F7FBFB;
+  --Light: #f7fbfb;
 }
 
-
-
 .container {
-  max-width: 375px;
+  max-width: 344px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 16px;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   color: #202321;
   font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
   background-color: #f7fbfb;
 }
 
