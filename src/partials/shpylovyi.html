@@ -36,7 +36,7 @@
           <use href="./img/icons.svg#icon-round"></use>
         </svg>
       </li>
-      <li class="reviews-item">
+      <li class="reviews-item hide">
         <div class="reviews-background"></div>
         <img
           class="reviews-images"
@@ -57,3 +57,152 @@
     </ul>
   </div>
 </section>
+
+<section class="gallery">
+  <div class="container">
+    <h2 class="gallery-title">Gallery</h2>
+    <ul class="gallery-list">
+      <li class="gallery-item">
+        <img
+          class="gallery-slider"
+          srcset="./img/photo gallery.jpg 1x, ./img/photo gallery@2x.jpg 2x"
+          src="./img/photo gallery.jpg"
+          alt="landscape"
+        />
+      </li>
+      <li class="gallery-item hide-img">
+        <img
+          class="gallery-slider"
+          srcset="./img/photo gallery (1).jpg 1x, ./img/photo gallery (1)@2x.jpg 2x"
+          src="./img/photo gallery (1).jpg"
+          alt="landscape"
+        />
+      </li>
+    </ul>
+    <div class="gallery-slider-btn">
+      <svg class="gallery-icon" width="28" height="28">
+        <use href="./img/icons.svg#icon-gallery-left"></use>
+      </svg>
+      <svg class="gallery-icon" width="28" height="28">
+        <use href="./img/icons.svg#icon-gallery-right"></use>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="pre-footer">
+  <div class="container">
+    <p class="pre-footer-title">Do you have any questions?</p>
+    <p class="pre-footer-text">
+      You can leave your questions here and our manager will call you back
+      within 10 minutes
+    </p>
+    <form class="pre-footer-form">
+      <div class="container-labels">
+        <div>
+          <label class="pre-footer-label" for="user-name"></label>
+          <input
+            class="pre-footer-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Your name*"
+          />
+        </div>
+        <div>
+          <label class="pre-footer-label" for="user-phone"></label>
+          <input
+            class="pre-footer-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            placeholder="Phone number*"
+          />
+        </div>
+        <div>
+          <label class="pre-footer-label" for="user-feedback"></label>
+          <input
+            class="pre-footer-input"
+            type="text"
+            name="user-feedback"
+            id="user-feedback"
+            placeholder="What would you like to know?"
+          />
+        </div>
+      </div>
+      <button class="pre-footer-button" type="submit">CALL ME</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer-container">
+  <div class="container">
+    <h2 class="footer-title">Contacts</h2>
+    <address>
+      <ul class="footer-list">
+        <li>
+          <div class="footer-link-contacts">
+            <svg class="footer-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-place"></use>
+            </svg>
+            <a class="contacts" href="" target="_blank"
+              >Lviv, st Dorosheko, 44 k</a
+            >
+          </div>
+        </li>
+        <li>
+          <div class="footer-link-contacts">
+            <svg class="footer-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-phone"></use>
+            </svg>
+            <a class="contacts" href="tel:+380971626790"
+              >+38 (097) 162 -67-90</a
+            >
+          </div>
+        </li>
+        <li>
+          <div class="footer-link-contacts">
+            <svg class="footer-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-email"></use>
+            </svg>
+            <a class="contacts" href="maito:mandrykarpaty&#64;gmail.com"
+              >mandrykarpaty@gmail.com</a
+            >
+          </div>
+        </li>
+        <li>
+          <ul class="footer-social-list">
+            <li>
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </address>
+
+    <div class="footer-down-container">
+      <svg class="footer-down-icon" width="16" height="16">
+        <use href="./img/icons.svg#icon-copyright"></use>
+      </svg>
+      <p class="footer-text">Created by LelekaSoft</p>
+    </div>
+  </div>
+</footer>
