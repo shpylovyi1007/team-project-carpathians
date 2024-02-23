@@ -1,0 +1,130 @@
+.hero {
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 188px;
+  padding-bottom: 193px;
+  color: var(--Light);
+  background: url(../img/hero-desk.jpg), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-container {
+  text-align: center;
+  transition: display 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-br {
+  display: none;
+}
+
+.hero-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 60px;
+  font-size: 40px;
+  line-height: normal;
+  font-style: normal;
+}
+
+.hero-subtitle {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 88px;
+  line-height: normal;
+}
+
+.hero-btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px;
+  background-color: var(--blue);
+  border: none;
+  width: 285px;
+  line-height: normal;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background: url(../img/hero_desk-768-1440.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 185px;
+  }
+
+  .header-open-menu {
+    background: linear-gradient(
+        0deg,
+        rgba(32, 35, 33, 0.7) 0%,
+        rgba(32, 35, 33, 0.7) 100%
+      ),
+      url(../img/hero_desk-768-1440.jpg);
+    background-size: cover;
+    padding-bottom: 185px;
+    background-repeat: no-repeat;
+  }
+
+  .hero-title {
+    font-size: 68px;
+    margin-bottom: 40px;
+  }
+
+  .hero-subtitle {
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 60px;
+    max-width: 470px;
+  }
+
+  .hero-btn {
+    font-size: 20px;
+    width: 394px;
+    height: 56px;
+  }
+
+  .hero-container {
+    padding: 0 20px;
+  }
+
+  .hero-br {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background: url(../img/hero_desk-1920.jpg), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+  }
+
+  .hero-br {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 88px;
+  }
+
+  .hero-subtitle {
+    font-size: 28px;
+    max-width: 685px;
+  }
+
+  .hero-btn {
+    font-size: 24px;
+    width: 575px;
+    height: 69px;
+  }
+
+  .hero-container {
+    padding: 0 20px;
+  }
+}
+
+.is-open {
+  display: block;
+}
