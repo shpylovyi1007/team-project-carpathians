@@ -16,7 +16,7 @@
           and seeing everything with your own eyes. Everything is organized at
           the highest level.
         </p>
-        <svg class="reviews-icon" onclick="openWindow()" width="32" height="32">
+        <svg class="reviews-icon" width="32" height="32">
           <use href="./img/icons.svg#icon-round"></use>
         </svg>
       </li>
@@ -32,11 +32,11 @@
           Good organization, everything went smoothly. Friendly guide Taras told
           interesting facts about the area and customs throughout the tour.
         </p>
-        <svg class="reviews-icon" onclick="openWindow()" width="32" height="32">
+        <svg class="reviews-icon" width="32" height="32">
           <use href="./img/icons.svg#icon-round"></use>
         </svg>
       </li>
-      <li class="reviews-item">
+      <li class="reviews-item hide">
         <div class="reviews-background"></div>
         <img
           class="reviews-images"
@@ -50,7 +50,7 @@
           interesting stories, selection of a route for a comfortable ascent,
           motivation and support.
         </p>
-        <svg class="reviews-icon" onclick="openWindow()" width="32" height="32">
+        <svg class="reviews-icon" width="32" height="32">
           <use href="./img/icons.svg#icon-round"></use>
         </svg>
       </li>
@@ -61,18 +61,30 @@
 <section class="gallery">
   <div class="container">
     <h2 class="gallery-title">Gallery</h2>
-    <img
-      class="gallery-slider"
-      srcset="./img/photo gallery.jpg 1x, ./img/photo gallery@2x.jpg 2x"
-      src="../img/photo gallery.jpg"
-      alt="landscape"
-    />
+    <ul class="gallery-list">
+      <li class="gallery-item">
+        <img
+          class="gallery-slider"
+          srcset="./img/photo gallery.jpg 1x, ./img/photo gallery@2x.jpg 2x"
+          src="./img/photo gallery.jpg"
+          alt="landscape"
+        />
+      </li>
+      <li class="gallery-item hide-img">
+        <img
+          class="gallery-slider"
+          srcset="./img/photo gallery (1).jpg 1x, ./img/photo gallery (1)@2x.jpg 2x"
+          src="./img/photo gallery (1).jpg"
+          alt="landscape"
+        />
+      </li>
+    </ul>
     <div class="gallery-slider-btn">
       <svg class="gallery-icon" width="28" height="28">
         <use href="./img/icons.svg#icon-gallery-left"></use>
       </svg>
       <svg class="gallery-icon" width="28" height="28">
-        <use href="../img/icons.svg#icon-gallery-right"></use>
+        <use href="./img/icons.svg#icon-gallery-right"></use>
       </svg>
     </div>
   </div>
@@ -86,35 +98,37 @@
       within 10 minutes
     </p>
     <form class="pre-footer-form">
-      <div>
-        <label class="pre-footer-label" for="user-name"></label>
-        <input
-          class="pre-footer-input"
-          type="text"
-          name="user-name"
-          id="user-name"
-          placeholder="Your name*"
-        />
-      </div>
-      <div>
-        <label class="pre-footer-label" for="user-phone"></label>
-        <input
-          class="pre-footer-input"
-          type="tel"
-          name="user-phone"
-          id="user-phone"
-          placeholder="Phone number*"
-        />
-      </div>
-      <div>
-        <label class="pre-footer-label" for="user-feedback"></label>
-        <input
-          class="pre-footer-input"
-          type="tel"
-          name="user-feedback"
-          id="user-feedback"
-          placeholder="What would you like to know?"
-        />
+      <div class="container-labels">
+        <div>
+          <label class="pre-footer-label" for="user-name"></label>
+          <input
+            class="pre-footer-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Your name*"
+          />
+        </div>
+        <div>
+          <label class="pre-footer-label" for="user-phone"></label>
+          <input
+            class="pre-footer-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            placeholder="Phone number*"
+          />
+        </div>
+        <div>
+          <label class="pre-footer-label" for="user-feedback"></label>
+          <input
+            class="pre-footer-input"
+            type="text"
+            name="user-feedback"
+            id="user-feedback"
+            placeholder="What would you like to know?"
+          />
+        </div>
       </div>
       <button class="pre-footer-button" type="submit">CALL ME</button>
     </form>
@@ -156,31 +170,34 @@
             >
           </div>
         </li>
+        <li>
+          <ul class="footer-social-list">
+            <li>
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </address>
-    <ul class="footer-social-list">
-      <li>
-        <a href="" class="footer-social-link">
-          <svg class="footer-social-icon" width="40" height="40">
-            <use href="./img/icons.svg#icon-telegram"></use>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a href="" class="footer-social-link">
-          <svg class="footer-social-icon" width="40" height="40">
-            <use href="./img/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a href="" class="footer-social-link">
-          <svg class="footer-social-icon" width="40" height="40">
-            <use href="./img/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
+
     <div class="footer-down-container">
       <svg class="footer-down-icon" width="16" height="16">
         <use href="./img/icons.svg#icon-copyright"></use>
