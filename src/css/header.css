@@ -135,10 +135,11 @@
   }
 
   .header-container {
-    display: block;
     position: absolute;
     max-width: 1440px;
     width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .top-links {

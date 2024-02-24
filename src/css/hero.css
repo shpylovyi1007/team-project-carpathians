@@ -95,10 +95,10 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
-    background: url(../img/hero_desk-1920.jpg), lightgray 50%;
+    background: url(../img/hero_desk-768-1440.jpg), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 280px;
+    height: 1024px;
   }
 
   .hero-br {
