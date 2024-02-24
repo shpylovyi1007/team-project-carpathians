@@ -20,9 +20,105 @@
     />
     
     <script type="module" crossorigin src="/team-project-carpathians/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project-carpathians/assets/index-15da5fc0.css">
+    <link rel="stylesheet" href="/team-project-carpathians/assets/index-21bd6a85.css">
   </head>
   <body>
+    <section class="header-mod is-open">
+  <div class="container header-mod-container">
+    <h2 class="header-mod-title">Book a tour</h2>
+    <p class="header-mod-text">
+      You can leave your application here and our manager will call you
+      within 10 minutes
+    </p>
+    <button type="button" class="header-mod-close">
+        <svg class="icon header-mod-close-icon">
+          <use href="../img/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <form class="header-mod-form">
+      <div class="mod-input">
+        <div class="header-mod-input-div">
+          <label for="user-name" class="header-mod-label">Your name*</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="header-mod-input"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="header-mod-input-div">
+          <label for="user-phone" class="header-mod-label">Phone number*</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-phone"
+            class="header-mod-input"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="checkbox-all">
+          <div class="checkbox-container">
+            <input
+              value="true"
+              name="user-ascent"
+              id="user-ascent"
+              type="checkbox"
+              class="checkbox visually-hidden"
+              checked
+            />
+            <label for="user-ascent" class="checkbox-label">
+              <span class="checkbox-label-span">
+                <svg class="icon modal-checkbox-icon" width="20" height="20">
+                  <use href="../img/icons.svg#icon-checkmark-outline"></use>
+                </svg>
+              </span>
+              Ascent to Hoverla</label
+            >
+          </div>
+          <div class="checkbox-container">
+            <input
+              value="true"
+              name="user-ski"
+              id="user-ski"
+              type="checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label for="user-ski" class="checkbox-label">
+              <span class="checkbox-label-span">
+                <svg class="icon modal-checkbox-icon" width="20" height="20">
+                  <use href="../img/icons.svg#icon-checkmark-outline"></use>
+                </svg>
+              </span>
+              Ski tour to Bukovel</label
+            >
+          </div>
+          <div class="checkbox-container">
+            <input
+              value="true"
+              name="user-week"
+              id="user-week"
+              type="checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label for="user-week" class="checkbox-label">
+              <span class="checkbox-label-span">
+                <svg class="icon modal-checkbox-icon" width="20" height="20">
+                  <use href="../img/icons.svg#icon-checkmark-outline"></use>
+                </svg>
+              </span>
+              Week in Carpathians</label
+            >
+          </div>
+        </div>
+      </div>
+      <button class="header-mod-btn">CALL ME</button>
+    </form>
+  </div>
+</section>
+
 
     <header class="header">
   <div class="container header-modal-container">
@@ -30,17 +126,17 @@
       <div class="header-modal">
         <a href="./index.html" class="header-logo"
           ><svg class="icon icon-logo">
-            <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-Logo"></use>
+            <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-Logo"></use>
           </svg>
         </a>
         <a class="header-burger header-burger-open"
           ><svg class="icon icon-burger">
-            <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-menu"></use>
+            <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-menu"></use>
           </svg>
         </a>
         <a class="header-burger header-burger-close is-close"
           ><svg class="icon icon-burger">
-            <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-close"></use>
+            <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-close"></use>
           </svg>
         </a>
       </div>
@@ -59,21 +155,21 @@
         <li class="social-modal-list-item">
           <a href="./index.html" class="social-list-item"
             ><svg class="icon social-icon" width="40" height="40">
-              <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-telegram"></use>
+              <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-telegram"></use>
             </svg>
           </a>
         </li>
         <li class="social-modal-list-item">
           <a href="./index.html" class="social-list-item"
             ><svg class="icon social-icon" width="40" height="40">
-              <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-instagram"></use>
+              <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="social-modal-list-item">
           <a href="./index.html" class="social-list-item"
             ><svg class="icon social-icon" width="40" height="40">
-              <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-facebook"></use>
+              <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
@@ -85,7 +181,7 @@
   <div class="top-links">
     <a href="./index.html" class="header-logo"
       ><svg class="icon icon-logo">
-        <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-Logo"></use>
+        <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-Logo"></use>
       </svg>
     </a>
     <nav class="header-nav">
@@ -103,21 +199,21 @@
       <li class="social-list-item">
         <a href="./index.html" class="social-list-item"
           ><svg class="icon social-icon" width="40" height="40">
-            <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-telegram"></use>
+            <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-telegram"></use>
           </svg>
         </a>
       </li>
       <li class="social-list-item">
         <a href="./index.html" class="social-list-item"
           ><svg class="icon social-icon" width="40" height="40">
-            <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-instagram"></use>
+            <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="social-list-item">
         <a href="./index.html" class="social-list-item"
           ><svg class="icon social-icon" width="40" height="40">
-            <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-facebook"></use>
+            <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
@@ -153,7 +249,7 @@
         </p>
         <button class="btn" type="button">
         <svg class="reviews-icon" width="32" height="32">
-          <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-round"></use>
+          <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-round"></use>
         </svg>
       </button>
       </li>
@@ -171,7 +267,7 @@
         </p>
         <button class="btn" type="button">
         <svg class="reviews-icon" width="32" height="32">
-          <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-round"></use>
+          <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-round"></use>
         </svg>
       </button>
       </li>
@@ -191,7 +287,7 @@
         </p>
         <button class="btn" type="button">
         <svg class="reviews-icon" width="32" height="32">
-          <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-round"></use>
+          <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-round"></use>
         </svg>
       </button>
       </li>
@@ -223,12 +319,12 @@
     <div class="gallery-slider-btn">
       <button class="btn" type="button">
       <svg class="gallery-icon" width="28" height="28">
-        <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-gallery-left"></use>
+        <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-gallery-left"></use>
       </svg>
     </button>
       <button class="btn" type="button">
       <svg class="gallery-icon" width="28" height="28">
-        <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-gallery-right"></use>
+        <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-gallery-right"></use>
       </svg>
     </button>
     </div>
@@ -288,7 +384,7 @@
         <li>
           <div class="footer-link-contacts">
             <svg class="footer-icon" width="32" height="32">
-              <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-place"></use>
+              <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-place"></use>
             </svg>
             <a class="contacts" href="" target="_blank"
               >Lviv, st Dorosheko, 44 k</a
@@ -298,7 +394,7 @@
         <li>
           <div class="footer-link-contacts">
             <svg class="footer-icon" width="32" height="32">
-              <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-phone"></use>
+              <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-phone"></use>
             </svg>
             <a class="contacts" href="tel:+380971626790"
               >+38 (097) 162 -67-90</a
@@ -308,7 +404,7 @@
         <li>
           <div class="footer-link-contacts">
             <svg class="footer-icon" width="32" height="32">
-              <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-email"></use>
+              <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-email"></use>
             </svg>
             <a class="contacts" href="maito:mandrykarpaty&#64;gmail.com"
               >mandrykarpaty@gmail.com</a
@@ -320,21 +416,21 @@
             <li>
               <a href="" class="footer-social-link">
                 <svg class="footer-social-icon" width="40" height="40">
-                  <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-telegram"></use>
+                  <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-telegram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" class="footer-social-link">
                 <svg class="footer-social-icon" width="40" height="40">
-                  <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-instagram"></use>
+                  <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" class="footer-social-link">
                 <svg class="footer-social-icon" width="40" height="40">
-                  <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-facebook"></use>
+                  <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
@@ -345,7 +441,7 @@
 
     <div class="footer-down-container">
       <svg class="footer-down-icon" width="16" height="16">
-        <use href="/team-project-carpathians/assets/icons-4ba6ca8a.svg#icon-copyright"></use>
+        <use href="/team-project-carpathians/assets/icons-cca71ad9.svg#icon-copyright"></use>
       </svg>
       <p class="footer-text">Created by LelekaSoft</p>
     </div>
@@ -353,6 +449,8 @@
 </footer>
 
 
+
+    
 
     
     
