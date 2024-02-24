@@ -1,0 +1,95 @@
+<section class="header-mod is-open">
+  <div class="container header-mod-container">
+    <h2 class="header-mod-title">Book a tour</h2>
+    <p class="header-mod-text">
+      You can leave your application here and our manager will call you
+      within 10 minutes
+    </p>
+    <button type="button" class="header-mod-close">
+        <svg class="icon header-mod-close-icon">
+          <use href="../img/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <form class="header-mod-form">
+      <div class="mod-input">
+        <div class="header-mod-input-div">
+          <label for="user-name" class="header-mod-label">Your name*</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="header-mod-input"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="header-mod-input-div">
+          <label for="user-phone" class="header-mod-label">Phone number*</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-phone"
+            class="header-mod-input"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="checkbox-all">
+          <div class="checkbox-container">
+            <input
+              value="true"
+              name="user-ascent"
+              id="user-ascent"
+              type="checkbox"
+              class="checkbox visually-hidden"
+              checked
+            />
+            <label for="user-ascent" class="checkbox-label">
+              <span class="checkbox-label-span">
+                <svg class="icon modal-checkbox-icon" width="20" height="20">
+                  <use href="../img/icons.svg#icon-checkmark-outline"></use>
+                </svg>
+              </span>
+              Ascent to Hoverla</label
+            >
+          </div>
+          <div class="checkbox-container">
+            <input
+              value="true"
+              name="user-ski"
+              id="user-ski"
+              type="checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label for="user-ski" class="checkbox-label">
+              <span class="checkbox-label-span">
+                <svg class="icon modal-checkbox-icon" width="20" height="20">
+                  <use href="../img/icons.svg#icon-checkmark-outline"></use>
+                </svg>
+              </span>
+              Ski tour to Bukovel</label
+            >
+          </div>
+          <div class="checkbox-container">
+            <input
+              value="true"
+              name="user-week"
+              id="user-week"
+              type="checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label for="user-week" class="checkbox-label">
+              <span class="checkbox-label-span">
+                <svg class="icon modal-checkbox-icon" width="20" height="20">
+                  <use href="../img/icons.svg#icon-checkmark-outline"></use>
+                </svg>
+              </span>
+              Week in Carpathians</label
+            >
+          </div>
+        </div>
+      </div>
+      <button class="header-mod-btn">CALL ME</button>
+    </form>
+  </div>
+</section>
