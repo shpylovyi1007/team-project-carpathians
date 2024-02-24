@@ -227,7 +227,7 @@
 }
 
 .pre-footer {
-  max-width: 344px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 116px 16px;
   background-image: url(../img/image_3_mobile.jpg);
@@ -310,7 +310,6 @@
 
 @media (min-width: 768px) {
   .pre-footer {
-    max-width: 768px;
     padding: 88px 20px;
   }
 
@@ -354,8 +353,6 @@
 
 @media (min-width: 1440px) {
   .pre-footer {
-    width: 100%;
-    max-width: 1440px;
     padding: 244px 20px;
   }
 
@@ -401,7 +398,7 @@
 }
 
 .footer-container {
-  max-width: 344px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #202321;
 }
@@ -473,7 +470,7 @@
 
 @media (min-width: 768px) {
   .footer-container {
-    max-width: 768px;
+    max-width: 100%;
     position: relative;
   }
 
@@ -513,7 +510,7 @@
 
 @media (min-width: 1440px) {
   .footer-container {
-    max-width: 1440px;
+    max-width: 100%;
 
   }
 
