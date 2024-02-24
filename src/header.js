@@ -5,6 +5,9 @@ const burgerClose = document.querySelector('.header-burger-close');
 const hero = document.querySelector('.hero-container');
 const heroSection = document.querySelector('.hero');
 const logo = document.querySelector('.header-logo');
+const heroBtn = document.querySelector('.hero-btn');
+const hederMod = document.querySelector('.header-mod');
+const headerModClose = document.querySelector('.header-mod-close')
 const mediaQuery = window.matchMedia('(min-width: 768px)');
 
 function openModal() {
@@ -33,3 +36,11 @@ function closeModal() {
 
 burgerClose.addEventListener('click', closeModal);
 burgerOpen.addEventListener('click', openModal);
+
+heroBtn.addEventListener('click', function () {
+  hederMod.classList.add('is-open');
+});
+
+headerModClose.addEventListener('click', function() {
+  hederMod.classList.remove('is-open');
+})

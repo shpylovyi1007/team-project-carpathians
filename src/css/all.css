@@ -5,6 +5,10 @@
   --Light: #f7fbfb;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 344px;
   margin: 0 auto;
