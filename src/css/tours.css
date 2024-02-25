@@ -1,23 +1,42 @@
 .tours {
-} 
+    padding: 26px 0;
+}
+
+.tours-title {
+    text-align: center;
+    font-weight: 400;
+    /* line-height: 1.11;*/
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+
+.hoverla-img {
+max-width: 311px;
+height: 338px;
+object-fit: cover;
+}
 
 .tours-text {
     padding-left: 20px;
     padding-bottom: 28px;
-}
-.tours-name {
-    font-weight: 600;
-    font-size: 20px;
+    padding-top: 28px;
     
 }
-.tours-price {
+.tours-name {
+    font-size: 20px;
     font-weight: 600;
+    padding-bottom: 16px;
+}
+.tours-price {
     font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 .tours-btn{
     color: #F7FBFB;
     background-color: #5B86A1;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.50; 
     letter-spacing: 0.04em;
@@ -34,11 +53,13 @@
 }
 .offer {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     border: 1px solid #5B86A1;
     border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .icon-right {
     fill: #5b86a1;
@@ -53,8 +74,8 @@ fill: #a3a5a3;
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 26px;
+    /* padding-top: 24px;
+    padding-bottom: 26px; */
 }
 .is-open {
     opacity: 1;

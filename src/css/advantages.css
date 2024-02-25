@@ -1,3 +1,4 @@
+
 .benefits {
     padding: 26px 14px;
 }
@@ -5,16 +6,18 @@
 .advantages { 
     display: flex;
     flex-direction: column;
-    background-image: url(/images/advantages1-1x.jpg);
+    gap: 28px;
+    background-image: url(../img/advantages1-1x.jpg);
     background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
-   width: 315px; 
+   padding: 87px 0;
+   /* width: 315px;  */
    margin: 0 auto;
-   height: 554px;
+   /* height: 554px; */
 }
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
-    .advantages {background-image: url(../images/advantages1-2x.jpg);
+    .advantages {background-image: url(../img/advantages1-2x.jpg);
     }
 }
 .icon-star {
@@ -29,26 +32,76 @@
     vertical-align: middle;
     align-items: center;
     justify-content: center;
-    padding: 87px 0;
     gap: 28px;
 }
 
 .benefits-item {
     background-color: #5B86A1;
     height: 40px;
-    width: 315px;
+    width: 100%;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: #F7FBFB;
     font-size: 14px;
+    font-weight: 400;
     padding-left: 30px;
 }
-.tours-title {
-    text-align: center;
-    font-weight: 500;
-    /* line-height: 1.11;*/
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    margin-bottom: 28px;
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 768px;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+    } */
+
+    .benefits {
+        padding: 40px 0 ;
+    }
+
+    .advantages {
+    background-image: url(../img/Advantages_2.jpg), url(../img/Advantages_3.jpg);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 354px 441px, 354px 441px;
+    background-position: 0 0, 374px 220px;
+    /* padding: 20px; */
+    width: 728px; 
+    }
+    .tours-title {
+        margin-bottom: 20px;
+    }
+    .benefits-item {
+        width: 604px;
+        height: 64px;
+        font-size: 20px;
+        padding-left: 51px;
+    }
+    
+    .icon-star {
+        width: 40px;
+        height: 40px;
+    }
 }
+
+@media screen and (min-width: 1440px) {
+    .benefits-title {
+        margin-bottom: 60px;
+    }
+    .advantages {
+        background-image: url(../img/Advantages_2.jpg), url(../img/Advantages_4.jpg), url(../img/Advantages_3.jpg);
+        background-repeat: no-repeat;
+        background-size: 377px 588px, 377px 507px, 377px 588px;
+        background-position: 0 0, 397px 100px, 792px 88px;
+        /* padding: 20px; */
+        width: 1170px; 
+    }
+    .icon-star {
+        width: 40px;
+        height: 406px;
+    }
+    .benefits-item {
+        padding-left: 126px;
+    }
+    }
