@@ -1,0 +1,54 @@
+.benefits {
+    padding: 26px 14px;
+}
+
+.advantages { 
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/advantages1-1x.jpg);
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   width: 315px; 
+   margin: 0 auto;
+   height: 554px;
+}
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .advantages {background-image: url(../images/advantages1-2x.jpg);
+    }
+}
+.icon-star {
+    fill: #F7FBFB;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    padding: 87px 0;
+    gap: 28px;
+}
+
+.benefits-item {
+    background-color: #5B86A1;
+    height: 40px;
+    width: 315px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #F7FBFB;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.tours-title {
+    text-align: center;
+    font-weight: 500;
+    /* line-height: 1.11;*/
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}

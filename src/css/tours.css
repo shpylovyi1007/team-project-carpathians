@@ -1,0 +1,69 @@
+.tours {
+} 
+
+.tours-text {
+    padding-left: 20px;
+    padding-bottom: 28px;
+}
+.tours-name {
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.tours-price {
+    font-weight: 600;
+    font-size: 16px;
+}
+.tours-btn{
+    color: #F7FBFB;
+    background-color: #5B86A1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50; 
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 53px;
+    min-width: 271px;
+    margin: 0 auto;
+}
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #5B86A1;
+    border-top: none;
+}
+.icon-right {
+    fill: #5b86a1;
+}
+
+.icon-left {
+fill: #a3a5a3;
+}
+
+.switching_directions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 26px;
+}
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+@media screen and (min-width: 768px) {
+    .benefits {
+        padding: 0;
+    } 
+    
+}
