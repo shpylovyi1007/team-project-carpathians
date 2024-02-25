@@ -139,6 +139,8 @@
     position: absolute;
     max-width: 1440px;
     width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .top-links {
@@ -163,20 +165,33 @@
 
   .header-list-item {
     padding: 30px 0;
+    position: relative;
   }
 
   .soc-link-div {
-    display: flex;
-    justify-content: end;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 460px;
+    position: relative;
   }
 
   .social-list {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+    position: absolute;
+    right: 0;
+  }
+
+  .social-list-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .header-list-icon:hover::after {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: 22px;
+    left: 0;
+    content: "";
+    border: 1px solid var(--Light);
   }
 }
 
