@@ -97,6 +97,7 @@ border: none;
     .benefits {
         padding: 0;
     } 
+
     .tour-bukovel {
         display: block;
     }
@@ -106,10 +107,12 @@ border: none;
         flex-direction: row;
         justify-content: center;
         gap: 20px;
-        /* flex-basis: calc((100% - 20px) / 2); */
     }
-    .offer-img {
-        max-width: 354px;
+    .tours-item {
+        width: calc((100% - 20px) / 2);
+    }
+    .offer-img img{
+        width: 354px;
         max-height: 357px;
         background-size: cover;
     }
@@ -139,14 +142,17 @@ border: none;
 
 }
 @media screen and (min-width: 1440px) {
+    .tours  {
+        flex-basis: calc((100% - 40px) / 3);
+    }
     .tour-carpathians {
         display: block;
     }
-    .tous {
-        flex-basis: calc((100% - 40px) / 3);
+    .tours-item {
+        width: calc((100% - 40px) / 3);
     }
-    .offer-img {
-        max-width: 377px;
+    .offer-img img{
+        width: 377px;
         max-height: 438px;
         background-size: cover;
     }
@@ -162,6 +168,7 @@ border: none;
     .tours-btn {
         height: 59px;
         font-size: 24px;
+        width: 337px;
     }
     .switching_directions {
         display: flex;
