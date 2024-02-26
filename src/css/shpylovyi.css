@@ -266,7 +266,7 @@
   margin-bottom: 24px;
 }
 
-.pre-footer-label::placeholder {
+.pre-footer-input::placeholder {
   color: #202321;
   font-size: 16px;
 }
@@ -331,7 +331,7 @@
     margin-bottom: 32px;
   }
 
-  .pre-footer-label::placeholder {
+  .pre-footer-input::placeholder {
     font-size: 20px;
   }
 
@@ -342,6 +342,7 @@
   .pre-footer-button {
     margin-top: 32px;
     font-size: 20px;
+    height: 56px;
   }
 
   .container-inputs {
@@ -374,7 +375,7 @@
     margin-bottom: 44px;
   }
 
-  .pre-footer-label::placeholder {
+  .pre-footer-input::placeholder {
     font-size: 24px;
   }
 
@@ -394,6 +395,7 @@
     margin-top: 44px;
     font-size: 24px;
     width: 575px;
+    height: 69px;
   }
 }
 
