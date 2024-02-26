@@ -1,6 +1,9 @@
 .tours {
     padding: 26px 0 0 0;
 }
+.tour-bukovel, .tour-carpathians {
+    display: none;
+}
 
 .tours-title {
     text-align: center;
@@ -12,8 +15,9 @@
 
 .offer-img {
 max-width: 311px;
-height: 338px;
+/* height: 338px; */
 background-size: cover;
+border: none;
 }
 
 .tour-item {
@@ -33,7 +37,6 @@ background-size: cover;
     padding-left: 20px;
     padding-bottom: 28px;
     padding-top: 28px;
-    
 }
 .tours-name {
     font-size: 20px;
@@ -62,34 +65,107 @@ background-size: cover;
     height: 53px;
     min-width: 271px;
 }
+.tours-btn:hover,
+.tours-btn:focus {
+    background-color: #1B1D1B;
+} 
 
-
-.icon-right {
-    fill: #5b86a1;
+.icon-right, .icon-left {
+    fill: #a3a5a3;
 }
 
-.icon-left {
-fill: #a3a5a3;
-}
-.icon-right,  .icon-left {
-color: #5b86a1;
+.icon-right:hover, .icon-left:hover,
+.icon-right:focus, .icon-left:focus {
+    fill: #5b86a1
 }
 
 .switching_directions {
+    margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 40px;
-    padding: 24px 140px 0 139px;
+    padding: 24px 83px 0 100px; 
 }
 .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
+
 @media screen and (min-width: 768px) {
     .benefits {
         padding: 0;
     } 
-    
+    .tour-bukovel {
+        display: block;
+    }
+    .toul-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        /* flex-basis: calc((100% - 20px) / 2); */
+    }
+    .offer-img {
+        max-width: 354px;
+        max-height: 357px;
+        background-size: cover;
+    }
+    .tours-text {
+        padding-left: 20px;
+        padding-bottom: 40px;
+        padding-top: 48px;
+    }
+    .tours-btn {
+        height: 56px;
+        font-size: 20px;
+    }
+    .tours-name {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .tours-price {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 48px;
+    }
+    .switching_directions {
+        display: flex;
+        justify-content: center;
+        padding: 24px 0 0 0;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    .tour-carpathians {
+        display: block;
+    }
+    .tous {
+        flex-basis: calc((100% - 40px) / 3);
+    }
+    .offer-img {
+        max-width: 377px;
+        max-height: 438px;
+        background-size: cover;
+    }
+    .tours-name {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    .tours-price {
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 36px;
+    }
+    .tours-btn {
+        height: 59px;
+        font-size: 24px;
+    }
+    .switching_directions {
+        display: flex;
+        justify-content: center;
+        padding: 24px 0 0 0;
+    }
 }
